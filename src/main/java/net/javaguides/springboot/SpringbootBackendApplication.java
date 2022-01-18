@@ -22,7 +22,7 @@ private EmployeeRepository employeeRepository;
 		Employee employee =new Employee();
 		employee.setFirstname("Abhi");
 		employee.setLastname("Dutonde");
-		employee.setEmailId("abhi@gmail.com");
+		employee.setEmailId("Abhi@gmail.com");
 		employeeRepository.save(employee);
 
 		Employee employee1 =new Employee();
